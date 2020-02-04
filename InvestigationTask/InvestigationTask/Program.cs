@@ -39,7 +39,7 @@ namespace InvestigationTask
                 {
                     ans = no1 * no2;
 
-                    calculations[i] = no3.ToString() + "*" + no2.ToString() + "=" + ans.ToString();
+                    calculations[i] = no1.ToString() + "*" + no2.ToString() + "=" + ans.ToString();
                 }
                    
                 Console.WriteLine(ans);
